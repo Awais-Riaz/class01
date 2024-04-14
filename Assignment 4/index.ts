@@ -15,7 +15,10 @@ num1 / num2;    //Calculating quotient
 let a = 1; // Defininng variable "a"
 let b = 2; // Defining variable "b"
 console.log(`value of first variable is ${a} and second variable is ${b}`);
-
+a = a * b; // to swap value of a with b
+b = a / b; // to swap value of b with a 
+a = a / b; // to swap value of b with a 
+console.log(`After the swap, first variable is ${a} and second is ${b}`);
 //Problem #4 Type Annotaion(Typescript)
 let message : string; // Decclaring string variable
 message = "Hello, TypeScript!";
