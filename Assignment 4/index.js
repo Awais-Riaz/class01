@@ -87,3 +87,30 @@ if (age >= 18) {
 else {
     console.log(`Sorry. you are not eligible to vote`); // Declaring ineligible because not 18 or older.
 }
+let score = 85; // Assume the score is already assigned a numerical value
+if (score >= 90) { // Greater than and equal too
+    console.log("Grade: A");
+}
+else if (score >= 80) { // Greater than and equal too
+    console.log("Grade: B");
+}
+else if (score >= 70) { // Greater than and equal too
+    console.log("Grade: C");
+}
+else if (score >= 60) { // Greater than and equal too
+    console.log("Grade: D");
+}
+else {
+    console.log("Grade: F"); // Less than or equal too 59 is grade (F)
+}
+let x = 30, y = 20, z = 10; // Assume the values of x, y, and z are already assigned
+// Compare the numbers to find the maximum
+if (x >= y && x >= z) {
+    console.log("The largest number is x.");
+}
+else if (y >= x && y >= z) {
+    console.log("The largest number is y.");
+}
+else {
+    console.log("The largest number is z.");
+}
